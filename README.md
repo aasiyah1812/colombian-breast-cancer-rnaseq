@@ -15,10 +15,10 @@ For the comprehensive clinical and epidemiological framework of this patient coh
 ## 📂 Repository Structure & Thesis Mapping
 The scripts in this repository are numbered sequentially with an "A" prefix (e.g., A.1, A.2) to perfectly match the Appendix references cited throughout the Materials and Methods section of my thesis manuscript. 
 
-* **A.1 - A.3 (Pre-processing & Alignment):** Bash scripts for merging raw FASTQ files, running FastQC/MultiQC, and executing STAR alignment on the Fuchs High-Performance Computing cluster.
-* **A.4 - A.9 (Variant Calling & Population Genomics):** The GATK pipeline (HaplotypeCaller in GVCF mode), 1000 Genomes Project intersection, dataset merging, and ADMIXTURE ancestry estimation.
-* **A.10 - A.16 (Visualization & Divergence Statistics):** R scripts for PCA plotting, evaluating ADMIXTURE cross-validation errors, and quantifying the transcriptomic vs. germline ancestry divergence (Wilcoxon signed-rank tests).
-* **A.17 - A.26 (Transcriptomics & Clinical Analysis):** R scripts for cohort stratification, DESeq2 differential expression models, clinical correlation statistics (Monte Carlo simulated Fisher's Exact tests), and Gene Ontology/GSEA pathway enrichment.
+* **A1 - A3 (Pre-processing & Alignment):** Bash scripts for merging raw FASTQ files, running FastQC/MultiQC, and executing STAR alignment on the Fuchs High-Performance Computing cluster.
+* **A4 - A9 (Variant Calling & Population Genomics):** The GATK pipeline (HaplotypeCaller in GVCF mode), 1000 Genomes Project intersection, dataset merging, and ADMIXTURE ancestry estimation.
+* **A10 - A16 (Visualization & Divergence Statistics):** R scripts for PCA plotting, evaluating ADMIXTURE cross-validation errors, and quantifying the transcriptomic vs. germline ancestry divergence (Wilcoxon signed-rank tests).
+* **A17 - A26 (Transcriptomics & Clinical Analysis):** R scripts for cohort stratification, DESeq2 differential expression models, clinical correlation statistics (Monte Carlo simulated Fisher's Exact tests), and Gene Ontology/GSEA pathway enrichment.
 
 ## 💻 Software Prerequisites
 To ensure computational reproducibility, the following major software suites were utilized in this pipeline:
